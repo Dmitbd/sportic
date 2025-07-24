@@ -1,3 +1,7 @@
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>;
+  return (
+    <div className={'mx-auto w-full max-w-md rounded-lg border bg-background p-6 shadow-sm'}>
+      auth
+    </div>
+  );
 }
